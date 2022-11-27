@@ -1,0 +1,58 @@
+body{
+    background-color: aquamarine;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+}
+table.mcl-listado {
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #B2B2B2;
+}
+  
+table.mcl-listado tr {
+    border-bottom: black 1px solid;
+}
+  
+  table.mcl-listado tr.titulo {
+    border: none;
+  }
+  
+  table.mcl-listado tr.titulo td {
+    padding-top: 20px;
+    font-weight: bolder;
+  }
+  
+  table.mcl-listado tr.cabecera td {
+    border: none;
+    font-weight: bolder;
+  }
+  
+  table.mcl-franjas thead tr, table.mcl-franjas tbody tr:nth-child(even) {
+    background-color: #eee;
+    color: black;
+  }
+  
+  table.mcl-centrado {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  
+  td.mcl-centrado, th.mcl-centrado, tbody.mcl-centrado {
+    text-align: center;
+  }
+  
+  table.tabla-con-borde {
+    border: #B2B2B2 1px solid;
+  }
+  
+  table.tabla-con-borde td, table.tabla-con-borde th {
+    border: black 1px solid;
+  }
+  
+  th {
+    text-align: center;
+  }
