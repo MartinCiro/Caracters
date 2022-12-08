@@ -10,7 +10,7 @@ h1 {
 
 tr{
   display: grid;
-  grid-template-columns: 8vw 8vw 16vw 17vw 15vw 34vw;
+  grid-template-columns: 8vw 8vw 16vw 17vw 15vw 36vw;
 }
 th{
   font-size: 2vw;
@@ -19,7 +19,7 @@ button{
   font-size: 1vw;
 }
 table{
-  grid-template-columns: 98vw;
+  grid-template-columns: 100vw;
   display: grid;
 }
 td{
@@ -29,7 +29,7 @@ td{
 table.mcl-listado {
     border-collapse: collapse;
     background-color: #B2B2B2;
-    width: 98vw;
+    width: 100vw;
 } 
   
   table.mcl-listado tr.cabecera td {
@@ -51,6 +51,8 @@ table.mcl-listado {
 @media (max-width: 768px){
   body{
     background-color: aquamarine;
+    margin: 0;
+    padding: 0;
 }
 h1 {
   font-size: 3vw;
@@ -59,7 +61,7 @@ h1 {
 
 tr{
   display: grid;
-  grid-template-columns: 8vw 8vw 16vw 17vw 15vw 34vw;
+  grid-template-columns: 8vw 8vw 16vw 17vw 15vw 36vw;
 }
 th{
   font-size: 2vw;
@@ -68,7 +70,7 @@ button{
   font-size: 1vw;
 }
 table{
-  grid-template-columns: 98vw;
+  grid-template-columns: 100vw;
   display: grid;
 }
 td{
@@ -78,7 +80,7 @@ td{
 table.mcl-listado {
     border-collapse: collapse;
     background-color: #B2B2B2;
-    width: 98vw;
+    width: 100vw;
 } 
   
   table.mcl-listado tr.cabecera td {
