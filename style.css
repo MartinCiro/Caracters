@@ -46,3 +46,53 @@ table.mcl-listado {
   text-align: center; 
   font-size: 2vw;
 }
+@media (max-width: 768px){
+  body{
+    background-color: aquamarine;
+}
+h1 {
+  font-size: 3vw;
+  text-align: center;
+}
+
+tr{
+  display: grid;
+  grid-template-columns: 8vw 8vw 16vw 17vw 15vw 34vw;
+}
+th{
+  font-size: 2vw;
+}
+button{
+  font-size: 1vw;
+}
+table{
+  grid-template-columns: 98vw;
+  display: grid;
+}
+td{
+  font-size: 1vw;
+}
+
+table.mcl-listado {
+    border-collapse: collapse;
+    background-color: #B2B2B2;
+    width: 98vw;
+} 
+  
+  table.mcl-listado tr.cabecera td {
+    font-weight: bolder;
+    display: grid;
+  }
+  
+  table.mcl-franjas thead tr, table.mcl-franjas tbody tr:nth-child(even) {
+    background-color: #eeeeee;
+  }
+
+  th {
+    text-align: center;
+  }
+.in{
+  text-align: center; 
+  font-size: 2vw;
+}
+}
