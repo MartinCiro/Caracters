@@ -1,5 +1,7 @@
 body{
     background-color: aquamarine;
+    margin: 0;
+    padding: 0;
 }
 h1 {
   font-size: 3vw;
