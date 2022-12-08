@@ -1,58 +1,48 @@
 body{
     background-color: aquamarine;
-    justify-content: center;
 }
 h1 {
-    text-align: center;
+  font-size: 3vw;
+  text-align: center;
 }
+
+tr{
+  display: grid;
+  grid-template-columns: 8vw 8vw 16vw 17vw 15vw 34vw;
+}
+th{
+  font-size: 2vw;
+}
+button{
+  font-size: 1vw;
+}
+table{
+  grid-template-columns: 98vw;
+  display: grid;
+}
+td{
+  font-size: 1vw;
+}
+
 table.mcl-listado {
     border-collapse: collapse;
-    margin-top: 10px;
-    margin-bottom: 10px;
     background-color: #B2B2B2;
-}
-  
-table.mcl-listado tr {
-    border-bottom: black 1px solid;
-}
-  
-  table.mcl-listado tr.titulo {
-    border: none;
-  }
-  
-  table.mcl-listado tr.titulo td {
-    padding-top: 20px;
-    font-weight: bolder;
-  }
+    width: 98vw;
+} 
   
   table.mcl-listado tr.cabecera td {
-    border: none;
     font-weight: bolder;
+    display: grid;
   }
   
   table.mcl-franjas thead tr, table.mcl-franjas tbody tr:nth-child(even) {
-    background-color: #eee;
-    color: black;
+    background-color: #eeeeee;
   }
-  
-  table.mcl-centrado {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-  }
-  
-  td.mcl-centrado, th.mcl-centrado, tbody.mcl-centrado {
-    text-align: center;
-  }
-  
-  table.tabla-con-borde {
-    border: #B2B2B2 1px solid;
-  }
-  
-  table.tabla-con-borde td, table.tabla-con-borde th {
-    border: black 1px solid;
-  }
-  
+
   th {
     text-align: center;
   }
+.in{
+  text-align: center; 
+  font-size: 2vw;
+}
